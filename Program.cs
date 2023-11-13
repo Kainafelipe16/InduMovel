@@ -1,3 +1,4 @@
+using InduMovel.Areas.Admin.Services;
 using InduMovel.Context;
 using InduMovel.Models;
 using InduMovel.Repositories;
@@ -9,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddScoped<RelatorioVendasServices>();
 builder.Services.Configure<ConfiguraImagem>(builder.Configuration.GetSection("ConfImagemItem"));
 builder.Services.AddScoped<IUserRoleInicial, UserRoleInicial>();
 builder.Services.AddIdentity<UserAcount, IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
