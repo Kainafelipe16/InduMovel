@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\InduMovel.bundle.scp.css"
     },
     {
+      "Id": "C:\\dev\\cs\\InduMovel\\wwwroot\\XML\\Pedidos.xml",
+      "PackagePath": "staticwebassets\\XML\\Pedidos.xml"
+    },
+    {
       "Id": "C:\\dev\\cs\\InduMovel\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -29,12 +33,16 @@
       "PackagePath": "staticwebassets\\imagens\\item\\1a171bd5-97f1-47a0-87e7-87625ac2d852..png"
     },
     {
-      "Id": "C:\\dev\\cs\\InduMovel\\wwwroot\\imagens\\item\\501b926b-d212-497d-bf75-f3d516959b0e..png",
-      "PackagePath": "staticwebassets\\imagens\\item\\501b926b-d212-497d-bf75-f3d516959b0e..png"
+      "Id": "C:\\dev\\cs\\InduMovel\\wwwroot\\imagens\\item\\4177d73c-f7ad-4d65-afb0-90e6798f6eec..png",
+      "PackagePath": "staticwebassets\\imagens\\item\\4177d73c-f7ad-4d65-afb0-90e6798f6eec..png"
     },
     {
       "Id": "C:\\dev\\cs\\InduMovel\\wwwroot\\imagens\\item\\707104f0-0cb0-4de7-bc5d-6999b80584ea..png",
       "PackagePath": "staticwebassets\\imagens\\item\\707104f0-0cb0-4de7-bc5d-6999b80584ea..png"
+    },
+    {
+      "Id": "C:\\dev\\cs\\InduMovel\\wwwroot\\imagens\\item\\d2c3db05-90e8-4f37-b3b6-0f3bf04f5a64..png",
+      "PackagePath": "staticwebassets\\imagens\\item\\d2c3db05-90e8-4f37-b3b6-0f3bf04f5a64..png"
     },
     {
       "Id": "C:\\dev\\cs\\InduMovel\\wwwroot\\imagens\\item\\eb44a1e3-ea25-4ac0-907d-8b2a9f1ee7d6..png",

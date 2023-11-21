@@ -20,13 +20,16 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Vendas</a>
+                            <a class="nav-link text-dark" asp-area="Admin" asp-controller="AdminMovel" asp-action="Index">Móvel</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="Admin" asp-controller="AdminCategoria" asp-action="Index">Categoria</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="Admin" asp-controller="AdminMovel" asp-action="Index">Móvel</a>
+                            <a class="nav-link text-dark" asp-area="Admin" asp-controller="AdminPedido" asp-action="Index">Pedidos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Vendas</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="Admin" asp-controller="AdminRelatorioVendas" asp-action="Index">Relatório vendas</a>
@@ -47,7 +50,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2023 - InduMovel - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2023 - InduMovel - <a asp-area="" asp-controller="Home" asp-action="Privacy">Políticas de Privacidades</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

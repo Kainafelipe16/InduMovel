@@ -9,6 +9,9 @@ C:\dev\cs\InduMovel\bin\Debug\net7.0\InduMovel.pdb
 C:\dev\cs\InduMovel\bin\Debug\net7.0\Azure.Core.dll
 C:\dev\cs\InduMovel\bin\Debug\net7.0\Azure.Identity.dll
 C:\dev\cs\InduMovel\bin\Debug\net7.0\Humanizer.dll
+C:\dev\cs\InduMovel\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\dev\cs\InduMovel\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\dev\cs\InduMovel\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\dev\cs\InduMovel\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\dev\cs\InduMovel\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\dev\cs\InduMovel\bin\Debug\net7.0\Microsoft.Build.dll
@@ -34,6 +37,9 @@ C:\dev\cs\InduMovel\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dl
 C:\dev\cs\InduMovel\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\dev\cs\InduMovel\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\dev\cs\InduMovel\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\dev\cs\InduMovel\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\dev\cs\InduMovel\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\dev\cs\InduMovel\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\dev\cs\InduMovel\bin\Debug\net7.0\Microsoft.Identity.Client.dll
 C:\dev\cs\InduMovel\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\dev\cs\InduMovel\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
@@ -270,6 +276,7 @@ C:\dev\cs\InduMovel\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Ind
 C:\dev\cs\InduMovel\obj\Debug\net7.0\staticwebassets.pack.json
 C:\dev\cs\InduMovel\obj\Debug\net7.0\staticwebassets.build.json
 C:\dev\cs\InduMovel\obj\Debug\net7.0\staticwebassets.development.json
+C:\dev\cs\InduMovel\obj\Debug\net7.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\dev\cs\InduMovel\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\dev\cs\InduMovel\obj\Debug\net7.0\scopedcss\bundle\InduMovel.styles.css
 C:\dev\cs\InduMovel\obj\Debug\net7.0\scopedcss\projectbundle\InduMovel.bundle.scp.css
@@ -279,10 +286,3 @@ C:\dev\cs\InduMovel\obj\Debug\net7.0\refint\InduMovel.dll
 C:\dev\cs\InduMovel\obj\Debug\net7.0\InduMovel.pdb
 C:\dev\cs\InduMovel\obj\Debug\net7.0\InduMovel.genruntimeconfig.cache
 C:\dev\cs\InduMovel\obj\Debug\net7.0\ref\InduMovel.dll
-C:\dev\cs\InduMovel\obj\Debug\net7.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\DEV\cs\InduMovel\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\DEV\cs\InduMovel\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\DEV\cs\InduMovel\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\DEV\cs\InduMovel\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
-C:\DEV\cs\InduMovel\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
-C:\DEV\cs\InduMovel\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
