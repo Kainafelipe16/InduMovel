@@ -27,6 +27,10 @@
             <td align="right">
                 <h3>(@Html.DisplayFor(modelItem => item.Quantidade))</h3>
             </td>
+            <td>
+                <a asp-controller="AdminPedidoMovel" asp-action="Edit" asp-route-id="@item.PedidoMovelId">Editar</a>
+                <a asp-controller="AdminPedidoMovel" asp-action="Edit" asp-route-id="@item.PedidoMovelId">Deletar</a>
+            </td>
         </tr>
     }
     <tr>
@@ -37,4 +41,4 @@
     </tr>
 </table>
 <a asp-action="Index" class="btn btn-outline-info">Retornar</a>
-<a asp-action="AdicionarMoveis" class="btn btn-outline-secondary">Adicionar mais itens ao carrinho</a>
+<a asp-controller="AdminPedidoMovel" asp-action="Create" asp-route-pedidoId="@Model.Pedidos.PedidoId" class="btn btn-outline-secondary">Adicionar mais itens ao carrinho</a>
