@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using InduMovel.Context;
 using InduMovel.Models;
 using Microsoft.AspNetCore.Authorization;
+using ReflectionIT.Mvc.Paging;
 
 namespace InduMovel.Areas.Admin.Controllers
 {
@@ -23,9 +24,24 @@ namespace InduMovel.Areas.Admin.Controllers
         }
 
         // GET: Admin/AdminCategoria
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string filtro, int pageindex = 1, string sort = "Nome")
         {
-              return View(await _context.Categorias.ToListAsync());
+            var moveislist =
+
+            _context.Categorias.AsNoTracking().AsQueryable();
+
+            if (filtro != null)
+            {
+                moveislist = moveislist.Where(p =>
+
+                p.Nome.Contains(filtro));
+
+            }
+            var model = await PagingList.CreateAsync(moveislist, 5, pageindex, sort, "Nome");
+
+            model.RouteValue = new RouteValueDictionary{{"filtro", filtro}};
+
+            return View(model);
         }
 
         // GET: Admin/AdminCategoria/Details/5
