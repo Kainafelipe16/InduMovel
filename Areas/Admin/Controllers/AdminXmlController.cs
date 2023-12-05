@@ -40,8 +40,8 @@ namespace InduMovel.Areas.Admin.Controllers
             {
                 df = DateTime.Now;
             }
-            ViewData["di"] = di.Value.ToString("yyyy-mm-dd");
-            ViewData["df"] = df.Value.ToString("yyyy-mm-dd");
+            ViewData["di"] = di.Value.ToString("yyyy-MM-dd");
+            ViewData["df"] = df.Value.ToString("yyyy-MM-dd");
             var result = await _relatorio.BuscaPorData(di, df);
             return View(result);
         }
@@ -105,8 +105,7 @@ namespace InduMovel.Areas.Admin.Controllers
                 return NotFound();
             }
             var result = await _context.Pedidos.Include(i =>
-            i.PedidoMoveis).ThenInclude(m => m.Movel).FirstOrDefaultAsync(p =>
-            p.PedidoId == pedidoId);
+            i.PedidoMoveis).ThenInclude(m => m.Movel).FirstOrDefaultAsync(p => p.PedidoId == pedidoId);
             string Caminho =
 
             Path.Combine(_hostingEnvireoment.WebRootPath, "XML/Pedido.xml");
@@ -131,13 +130,9 @@ namespace InduMovel.Areas.Admin.Controllers
                 xml.WriteStartElement("Moveis");
                 foreach (PedidoMovel pm in result.PedidoMoveis)
                 {
-                    xml.WriteElementString("MovelId",
+                    xml.WriteElementString("MovelId", pm.MovelId.ToString());
 
-                    pm.MovelId.ToString());
-
-                    xml.WriteElementString("Quantidade",
-
-                    pm.Quantidade.ToString());
+                    xml.WriteElementString("Quantidade", pm.Quantidade.ToString());
                 }
                 xml.WriteEndElement();
                 xml.WriteEndElement();

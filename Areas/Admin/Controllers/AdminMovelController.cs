@@ -38,14 +38,10 @@ namespace InduMovel.Areas.Admin.Controllers
 
             if (filtro != null)
             {
-                moveislist = moveislist.Where(p =>
-
-                p.Nome.Contains(filtro));
+                moveislist = moveislist.Where(p => p.Nome.ToLower().Contains(filtro.ToLower()));
 
             }
-            var model = await PagingList.CreateAsync(moveislist, 5,
-
-            pageindex, sort, "Nome");
+            var model = await PagingList.CreateAsync(moveislist, 5, pageindex, sort, "Nome");
 
             model.RouteValue = new RouteValueDictionary{{"filtro", filtro}};
 
